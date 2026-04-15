@@ -4,4 +4,5 @@ __pycache__/
 
 data/raw_data.csv
 data/cleaned_data.csv
-outputs/
+data/utility.db
+.vscode/
