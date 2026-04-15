@@ -6,7 +6,7 @@ Built using Python, SQL, and Flask to simulate real-world utility data analysis 
 
 ## 📊 Overview
 
-This project analyzes household electricity consumption data to identify usage patterns, peak demand periods, and potential optimization opportunities.
+This project analyzes global electricity consumption data to identify usage patterns, peak demand periods, and potential optimization opportunities.
 
 It demonstrates a complete data workflow:
 - Data cleaning
