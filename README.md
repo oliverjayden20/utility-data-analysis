@@ -6,7 +6,7 @@ Built using Python, SQL, and Flask to simulate real-world utility data analysis 
 
 ## 📊 Overview
 
-This project analyzes global electricity consumption data to identify usage patterns, peak demand periods, and potential optimization opportunities.
+This project analyzes household electricity consumption data to identify usage patterns, peak demand periods, and potential optimization opportunities.
 
 It demonstrates a complete data workflow:
 - Data cleaning
@@ -85,26 +85,27 @@ http://127.0.0.1:5000/summary
 ```
 utility-analysis-project/
 │
-├── data/
-│   ├── utility.db
-│   ├── cleaned_data.csv
-│   └── raw_data.csv
-│
-├── src/
-│   ├── database.py
-│   ├── data_cleaning.py
-│   └── data_analysis.py
-│
 ├── app/
 │   └── app.py
 │
+├── data/
+│   ├── cleaned_data.csv
+│   ├── raw_data.csv
+│   └── utility.db
+│
 ├── outputs/
+│   ├── .gitkeep
 │   └── charts/
 │       └── peak_usage.png
 │
+├── src/
+│   ├── data_analysis.py
+│   ├── data_cleaning.py
+│   └── database.py
+│
+├── .gitignore
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── requirements.txt
 ```
 
 ---
