@@ -12,7 +12,7 @@ It demonstrates a complete data workflow:
 - Data cleaning
 - Data analysis
 - Database integration
-- Basic web application
+- Web-based dashboard visualization
 
 ---
 
@@ -29,14 +29,22 @@ It demonstrates a complete data workflow:
 - Data cleaning and preprocessing pipeline  
 - Time-based energy usage analysis  
 - SQL database integration for querying  
-- Web interface to display usage summaries  
+- Interactive dashboard displaying key metrics and charts  
+
+---
+
+## 📸 Dashboard Preview
+
+Below is a screenshot of the dashboard displaying energy insights:
+
+![Dashboard Preview](outputs/dashboard.png)
 
 ---
 
 ## 🔍 Key Insights
 
 - Identified peak electricity usage hours  
-- Analyzed daily consumption trends  
+- Analyzed daily and monthly consumption trends  
 - Calculated average and total energy usage  
 
 ---
@@ -75,7 +83,6 @@ Then open:
 
 ```
 http://127.0.0.1:5000
-http://127.0.0.1:5000/summary
 ```
 
 ---
@@ -86,6 +93,8 @@ http://127.0.0.1:5000/summary
 utility-analysis-project/
 │
 ├── app/
+│   ├── templates/
+│   │   └── dashboard.html
 │   └── app.py
 │
 ├── data/
@@ -94,9 +103,12 @@ utility-analysis-project/
 │   └── utility.db
 │
 ├── outputs/
-│   ├── .gitkeep
-│   └── charts/
-│       └── peak_usage.png
+│   ├── dashboard.png
+│   ├── charts/
+│   │   ├── daily_usage.png
+│   │   ├── monthly_usage.png
+│   │   └── peak_usage.png
+│   └── .gitkeep
 │
 ├── src/
 │   ├── data_analysis.py
@@ -112,9 +124,9 @@ utility-analysis-project/
 
 ## 📌 Future Improvements
 
-- Add interactive dashboard (charts inside web app)  
-- Implement real-time data updates  
-- Expand analysis with predictive modeling  
+- Add interactive filtering (date ranges, usage categories)  
+- Enhance dashboard UI/UX  
+- Implement predictive analytics for demand forecasting  
 
 ---
 
